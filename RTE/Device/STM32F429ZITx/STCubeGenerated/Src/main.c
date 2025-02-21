@@ -77,12 +77,14 @@ HAL_StatusTypeDef HAL_InitTick(uint32_t TickPriority) {
   
   return HAL_OK; 
 } 
-
+int Init_Timers (void);
 void app_main(void *argument) 
 {
+	(void) argument;
+	Init_Timers ();
 	while(1)
 	{
-		HAL_GPIO_TogglePin(LED1_GPIO_Port,LED1_Pin);
+		//HAL_GPIO_TogglePin(LED1_GPIO_Port,LED1_Pin);
 		osDelay(1000);
 	}
 }

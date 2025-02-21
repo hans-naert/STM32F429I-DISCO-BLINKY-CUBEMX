@@ -385,9 +385,9 @@
           <GroupName>Source Group 1</GroupName>
           <Files>
             <File>
-              <FileName>Thread.c</FileName>
+              <FileName>Timer.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Thread.c</FilePath>
+              <FilePath>.\Timer.c</FilePath>
             </File>
           </Files>
         </Group>
